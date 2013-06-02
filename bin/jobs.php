@@ -6,6 +6,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $consumer = new EmailConsumer();
 
-while(true) {
-	$consumer->processJob();
+while (true) {
+    $consumer->processJob();
 }
