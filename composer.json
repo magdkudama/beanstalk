@@ -1,0 +1,16 @@
+{
+	"require": {
+        "symfony/http-foundation": "2.2.*@dev",
+        "zendframework/zend-mail": "2.2.*",
+        "pda/pheanstalk": "dev-master"
+    },
+	"repositories": [
+	    {
+	        "type": "composer",
+	        "url": "https://packages.zendframework.com/"
+	    }
+	],
+	"autoload": {
+        "psr-0": {"MagdKudama": "src/"}
+    }
+}
